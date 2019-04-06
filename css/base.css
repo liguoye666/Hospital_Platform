@@ -1,0 +1,68 @@
+/* #top 模块内样式 */
+.top { font-size: 13px; line-height: 30px; color: #868686; }
+.top .call { float: left; padding-left: 20px; background: url(../img/icon-call.png) no-repeat center left; }
+.top .welcome { float: right; }
+.top a { padding-left: 10px; color: #2da5e1; }
+
+/* #header 模块内样式 */
+.header .logo { display: inline-block; width: 402px; height: 74px; padding: 9px 0; }
+.header .logo img { width: 100%; height: 100%; }
+.header .search { position: absolute; top: 29px; right: 0; width: 326px; height: 38px;    /*background-color: orange;*/ }
+
+/* #nav 模块内样式 */
+.nav { line-height: 36px; }
+.nav a { float: left; margin-left: 28px; color: #fff; }
+.nav a:last-child { float: right; }
+.nav a:hover { color: #d7f3ff; }
+
+/* 医院简绍区域 */
+.hospital .caption { line-height: 52px; box-sizing: border-box; height: 52px; padding: 0 25px; border-bottom: 1px solid #dcdddd; }
+.hospital .caption .left { float: left; }
+.hospital .caption .left span { font-size: 16px; display: inline-block; margin-right: 12px; }
+.hospital .caption .left a { font-size: 14px; display: inline-block; color: #f29600; }
+.hospital .caption .right { font-size: 12px; float: right; color: #00f; }
+.hospital .caption .right span { display: inline-block; color: #000; }
+.hospital .main { position: relative; box-sizing: border-box; height: 208px; padding: 12px 24px 0 248px; }
+.hospital .main .left { position: absolute; top: 12px; left: 23px; width: 200px; height: 150px; }
+.hospital .main .left img { width: 100%; height: 100%; }
+.hospital .main .middle { font-size: 12px; float: left; box-sizing: border-box; width: 460px; height: 200px; color: #888; }
+.hospital .main .middle .item { line-height: 1.8em; margin-top: 10px; padding-left: 30px; }
+.hospital .main .middle .address { background: url(../img/icon-web.png) no-repeat 0 0; }
+.hospital .main .middle .link { background: url(../img/icon-web.png) no-repeat 0 -21px; }
+.hospital .main .middle .phone { background: url(../img/icon-web.png) no-repeat 0 -42px; }
+.hospital .main .middle .route { background: url(../img/icon-web1.png) no-repeat 0 0; }
+.hospital .main .right { float: right; width: 245px; height: 162px; }
+.hospital .main .right img { width: 100%; height: 100%; }
+
+/* 医院体系区域 */
+.content > .caption a { line-height: 32px; display: inline-block; width: 110px; height: 32px; text-align: center; color: #60bff2; }
+.content > .caption .item_focus { color: #fff; background: #60bff2; }
+.content .item-tab .caption { line-height: 45px; height: 45px; padding-left: 30px; background: #f7f7f7; }
+.content .item-tab .block-item { height: 90px; border-bottom: 2px solid #f4f6fa; }
+.content .item-tab .block-item-caption { float: left; box-sizing: border-box; width: 145px; height: 90px; padding-top: 10px; text-align: center; color: #888; background: #f2fbff; }
+.content .item-tab .block-item-content { float: left; box-sizing: border-box; width: 555px; padding-left: 20px; }
+.content .item-tab .block-item-content a { font-size: 14px; font-weight: bold; line-height: 30px; display: inline-block; width: 120px; height: 30px; color: #4c4948; }
+.content .item-rule .caption { font-size: 14px; line-height: 41px; box-sizing: border-box; height: 41px; padding-left: 10px; color: #606060; background: #f4f6fa; }
+.content .item-rule .caption span { font-size: 12px; color: #60bff2; }
+.content .item-rule .item-rule-content { font-size: 12px; overflow-y: scroll; box-sizing: border-box; height: 244px; padding-top: 5px; }
+.content .item-rule .item-rule-content .list { line-height: 1.5em; box-sizing: border-box; padding-top: 6px; padding-left: 10px; }
+.content .item-rule .item-rule-content .list span { display: block; }
+.content .item-rule .item-rule-content .list span:nth-child(1) { font-size: 13px; float: left; width: 72px; color: #555; }
+.content .item-rule .item-rule-content .list span:nth-child(2) { float: left; width: 165px; color: #888; }
+.content .content-item { display: none; }
+.content .content-item1 { display: block; }
+.content .content-item2 p { font-size: 14px; line-height: 2em; margin-bottom: 15px; text-indent: 28px; }
+.content .content-item3 { width: 930px; margin: 0 auto; }
+.content .content-item3 .title { font-size: 18px; font-weight: bold; text-align: center; }
+.content .content-item3 .main { font-size: 12px; line-height: 1.8em; }
+.content .content-item4 h2 { font-size: 18px; font-weight: normal; margin-bottom: 24px; text-align: center; }
+.content .content-item4 table { width: 989px; margin: 0 auto; text-align: center; vertical-align: middle; border-right: 1px solid #dcdddd; border-bottom: 1px solid #dcdddd; }
+.content .content-item4 table tr td { font-size: 13px; height: 29px; padding: 0 6px; color: #555; border: 1px solid #dcdddd; border-right: none; border-bottom: none; background: #fff; }
+.content .content-item5 { margin-top: 80px; border-top: 1px solid #dcdcdc; border-bottom: 1px solid #dcdcdc; }
+.content .content-item5 .cancel { width: 478px; margin: 0 auto; padding: 30px 0; }
+.content .content-item5 .cancel-name { line-height: 30px; float: left; }
+.content .content-item5 .cancel-input { line-height: 24px; display: inline-block; float: left; width: 185px; height: 24px; margin-left: 10px; padding: 2px 2px 2px 4px; border: 1px solid #dcdddd; }
+.content .content-item5 .cancel-submit { font-size: 14px; line-height: 27px; display: inline-block; float: left; width: 108px; height: 29px; margin-left: 10px; cursor: pointer; text-align: center; color: #fff; background: #00b3ec; }
+
+/* footer区域 */
+.footer { font-size: 14px; }

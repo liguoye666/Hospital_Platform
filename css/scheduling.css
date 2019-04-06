@@ -1,0 +1,25 @@
+li { list-style: none; }
+.scheduling { width: 1000px; margin: 0 auto; margin-bottom: 120px; }
+.scheduling-caption { line-height: 29px; width: 980px; padding: 10px; }
+.scheduling-caption .name { display: inline-block; }
+.scheduling-caption .back { font-size: 14px; margin-left: 10px; color: #60bff2; }
+.scheduling-item { position: relative; height: 396px; }
+.scheduling-item .item-tab { position: relative; box-sizing: border-box; width: 734px; height: 326px; border: 1px solid #e5e5e5; border-right: none; border-bottom: none; }
+.scheduling-item .item-tab-table { position: absolute; left: 34px; overflow: hidden; box-sizing: border-box; width: 665px; height: 325px; border-right: 1px solid #e5e5e5; }
+.scheduling-item .ui-table-wrap { position: absolute; left: 0; box-sizing: border-box; width: 99999px; height: 325px; transition: all .5s; }
+.scheduling-item .ui-table-wrap table { display: block; float: left; width: 665px; }
+.scheduling-item .item-tab-table th { font-size: 12px; font-weight: normal; width: 94px; height: 44px; color: #868686; border: 1px solid #dcdddd; border-top: none; border-right: none; border-bottom: none; background: #f8fafc; }
+.scheduling-item .item-tab-table td { font-size: 12px; width: 94px; height: 92px; padding: 0 6px; text-align: center; border: 1px solid #e5e5e5; border-right: none; border-bottom: none; background: #fff; }
+.scheduling-item .item-tab-table .td_focus { cursor: pointer; color: #4ab4ed; background: #e0eefd; }
+.scheduling-item .item-tab-prev { font-size: 14px; position: absolute; left: 0; width: 34px; height: 325px; background: #f2f8ff; }
+.scheduling-item .item-tab-prev .btn-left { display: inline-block; width: 34px; height: 47px; cursor: pointer; background: url(../img/icon-scheduling-left.jpg) no-repeat; }
+.scheduling-item .item-tab-next li,
+.scheduling-item .item-tab-prev li { line-height: 90px; width: 34px; height: 90px; text-align: center; }
+.scheduling-item .item-tab-next { font-size: 14px; position: absolute; right: 0; width: 34px; height: 325px; background: #f2f8ff; }
+.scheduling-item .item-tab-next .btn-right { display: inline-block; width: 34px; height: 47px; cursor: pointer; background: url(../img/icon-scheduling-right.jpg) no-repeat; }
+.scheduling-item .item-rule { font-weight: normal; line-height: 1.3em; position: absolute; top: 0; right: 0; overflow-y: scroll; box-sizing: border-box; width: 266px; height: 326px; padding: 15px 50px 15px 8px; border: 1px solid #dcdddd; border-bottom: none; }
+.scheduling-item .item-rule h4 { font-size: 18px; font-weight: normal; line-height: 29px; }
+.scheduling-item .item-rule h5 { font-weight: normal; margin-top: 5px; }
+.scheduling-item .item-rule p { font-size: 13px; color: #888; }
+.scheduling-item .item-bottom { font-size: 18px; line-height: 70px; position: absolute; bottom: 0; box-sizing: border-box; width: 100%; text-align: center; color: #888; border: 1px solid #dcdddd; }
+.scheduling-item .item-bottom p { width: 200px; margin: 0 auto; padding-left: 20px; background: url(../img/icon-info.jpg) no-repeat center left; }
